@@ -66,3 +66,35 @@ h6 {
 #__next {
     isolation: isolate;
 }
+
+:root {
+    --color-red: hsl(0, 78%, 62%);
+    --color-cyan: hsl(180, 62%, 55%);
+    --color-orange: hsl(34, 97%, 64%);
+    --color-blue: hsl(212, 86%, 64%);
+
+    --font-popping: 'Poppins';
+    --font-light: 200;
+    --font-regular: 400;
+    --font-semi-bold: 600;
+}
+
+body {
+    font-family: var(--font-popping, sans-serif);
+    font-size: 0.938rem;
+}
+
+.card-preview__title {
+    font-weight: var(--font-light);
+}
+
+.card-preview__sub-title {
+    font-weight: var(--font-regular);
+    font-size: 1.875rem;
+}
+
+:is(.card-preview__title,
+    .card-preview__sub-title,
+    .card-preview__descriptions) {
+    text-align: center;
+}
