@@ -86,11 +86,32 @@ body {
 
 .card-preview__title {
     font-weight: var(--font-light);
+    font-size: 1.6rem;
 }
 
 .card-preview__sub-title {
-    font-weight: var(--font-regular);
-    font-size: 1.875rem;
+    font-weight: var(--font-semi-bold);
+    font-size: 1.4rem;
+
+}
+
+.card-preview__descriptions {
+    font-weight: var(--font-light);
+
+}
+
+.card {
+    margin: 1rem;
+    padding: 1rem;
+    border-top: 1px solid red;
+    display: flex;
+    flex-flow: column wrap;
+    gap: 0.5rem;
+}
+
+.card>img {
+    margin-left: auto;
+    margin-top: 2rem;
 }
 
 :is(.card-preview__title,
