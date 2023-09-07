@@ -88,14 +88,13 @@ body {
 
 .card-preview__title {
     font-weight: var(--font-light);
-    font-size: 1.6rem;
+    font-size: 1.5rem;
 }
 
 .card-preview__sub-title {
     font-weight: var(--font-semi-bold);
-    font-size: 1.4rem;
+    font-size: 1.25rem;
     opacity: 0.9;
-
 }
 
 .card-preview__descriptions {
@@ -153,6 +152,20 @@ body {
     .card-preview {
         max-width: 1200px;
         margin: 0 auto;
+    }
+
+    .card-preview__title {
+        font-size: 2.125rem;
+    }
+
+    .card-preview__sub-title {
+        font-size: 1.875rem;
+    }
+
+    .card-preview__descriptions {
+        max-width: 550px;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .card-preview__cards {
