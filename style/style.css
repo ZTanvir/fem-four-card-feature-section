@@ -148,3 +148,28 @@ body {
     .card-preview__descriptions) {
     text-align: center;
 }
+
+@media(min-width:850px) {
+    .card-preview {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    .card-preview__cards {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 2%;
+        justify-content: space-around;
+    }
+
+    .card-preview__suppervisor-card,
+    .card-preview__calculator-card,
+    .card-preview__team-karma {
+        flex-basis: 32%;
+    }
+
+    .card {
+        margin: 1rem 0rem;
+    }
+}
