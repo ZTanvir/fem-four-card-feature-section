@@ -106,7 +106,7 @@ body {
     display: flex;
     flex-flow: column wrap;
     gap: 0.5rem;
-    border-radius: 5px;
+    border-radius: 4px;
     box-shadow: 0px 11px 15px -3px rgba(0, 0, 0, 0.1);
     overflow: hidden;
 }
@@ -114,6 +114,25 @@ body {
 .card>img {
     margin-left: auto;
     margin-top: 2rem;
+}
+
+.card-preview__suppervisor-card {
+    border-top: 3px solid var(--color-cyan);
+}
+
+.card-preview__team-card {
+    border-top: 3px solid var(--color-red);
+
+}
+
+.card-preview__karma-card {
+    border-top: 3px solid var(--color-orange);
+
+}
+
+.card-preview__calculator-card {
+    border-top: 3px solid var(--color-blue);
+
 }
 
 :is(.card-preview__title,
