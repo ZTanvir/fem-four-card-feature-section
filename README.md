@@ -15,7 +15,7 @@ This is a solution to the [Four card feature section](https://www.frontendmentor
 
 ### Screenshot
 
-![](./images/screenshoot/four-card-feature-section.png)
+![](./images/screenshoot/four-card-section.png)
 
 ### Links
 

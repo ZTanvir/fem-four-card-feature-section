@@ -105,7 +105,7 @@ body {
 
 .card {
     margin: 1rem;
-    padding: 1rem;
+    padding: 2.5rem;
     display: flex;
     flex-flow: column wrap;
     gap: 0.5rem;
